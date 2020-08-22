@@ -1,0 +1,8 @@
+import os 
+import sys
+
+list=[1,2,3,4,10,11]
+sum=0
+for item in list:
+    sum=sum + item
+print(sum)
