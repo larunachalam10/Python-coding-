@@ -1,0 +1,13 @@
+grades_item=[73,67,38,33]
+base=5 
+grade=[]
+for i  in grades_item:
+    if i < 38 : 
+        grade.append(i)
+    else:
+        x= base * round(i/base)
+        if x > i :
+            grade.append(x)
+        else:
+            grade.append(i)
+print (grade)
