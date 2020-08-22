@@ -1,0 +1,5 @@
+list=[2,3,6,6,5]
+list.sort()
+print('\n')
+list_unique= set(list) # set iterable elements into distinct elements
+print(sorted(list_unique)[-2]) # convert set () into list()
