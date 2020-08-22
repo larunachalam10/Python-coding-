@@ -1,0 +1,11 @@
+s='aaabccddd'
+add=[]
+for c in range(0,len(s)):
+    if not add or s[c]  != add[-1]:
+        add+= s[c]
+    else:
+        add.pop()
+if add:
+    print(" ".join (add))
+else:
+    print("Empty String")
